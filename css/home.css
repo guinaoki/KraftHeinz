@@ -22,6 +22,7 @@ body{
 .navbar-direita div{
     text-transform: uppercase;
     font-weight: 600;
+    color: #036;
 }
 
 .navbar-direita{
@@ -31,4 +32,30 @@ body{
 
 .navbar-direita > *{
     padding: 30px;
+    text-decoration: none;
+}
+
+.introducao div{
+    text-transform: uppercase;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Gotham";
+    color: #00adc7;
+}
+
+.introducao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.texto{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+    margin:auto;
+    max-width:820px;
+    font-family: "Gotham";
+    color: #7a7a7a;
 }
